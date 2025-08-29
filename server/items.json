@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Mouse",
+    "price": 499,
+    "category": "Electronics",
+    "inStock": true
+  },
+  {
+    "id": 2,
+    "name": "Bluetooth Headphones",
+    "price": 1599,
+    "category": "Electronics",
+    "inStock": true
+  },
+  {
+    "id": 3,
+    "name": "Notebook",
+    "price": 99,
+    "category": "Stationery",
+    "inStock": false
+  },
+  {
+    "id": 4,
+    "name": "Water Bottle",
+    "price": 299,
+    "category": "Home & Kitchen",
+    "inStock": true
+  },
+  {
+    "id": 5,
+    "name": "Backpack",
+    "price": 1199,
+    "category": "Accessories",
+    "inStock": true
+  },
+  {
+    "id": 6,
+    "name": "Gaming Keyboard",
+    "price": 2499,
+    "category": "Electronics",
+    "inStock": true
+  },
+  {
+    "id": 7,
+    "name": "LED Desk Lamp",
+    "price": 899,
+    "category": "Home & Kitchen",
+    "inStock": false
+  },
+  {
+    "id": 8,
+    "name": "Running Shoes",
+    "price": 3499,
+    "category": "Footwear",
+    "inStock": true
+  },
+  {
+    "id": 9,
+    "name": "Smartphone Stand",
+    "price": 299,
+    "category": "Electronics",
+    "inStock": true
+  },
+  {
+    "id": 10,
+    "name": "Coffee Mug",
+    "price": 249,
+    "category": "Home & Kitchen",
+    "inStock": true
+  },
+  {
+    "id": 11,
+    "name": "Yoga Mat",
+    "price": 799,
+    "category": "Sports",
+    "inStock": true
+  },
+  {
+    "id": 12,
+    "name": "Sunglasses",
+    "price": 1299,
+    "category": "Accessories",
+    "inStock": false
+  },
+  {
+    "id": 13,
+    "name": "Power Bank",
+    "price": 1999,
+    "category": "Electronics",
+    "inStock": true
+  },
+  {
+    "id": 14,
+    "name": "Wrist Watch",
+    "price": 2599,
+    "category": "Accessories",
+    "inStock": true
+  },
+  {
+    "id": 15,
+    "name": "Desk Organizer",
+    "price": 699,
+    "category": "Office Supplies",
+    "inStock": true
+  }
+]
