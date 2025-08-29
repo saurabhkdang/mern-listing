@@ -36,19 +36,21 @@ const Signin = () => {
   }
 
   return (
-    <div>
-      <h1>Sign In</h1>
-      <form onSubmit={handleSubmit} method='POST'>
-        <label>
-          Email:
-          <input type="email" name="email" value={formData.email} onChange={handleChange}/>
-        </label>
-        <label>
-          Password:
-          <input type="password" name="password" value={formData.password} onChange={handleChange} />
-        </label>
-        <button type="submit" onSubmit={handleSubmit}>Sign In</button>
-      </form>
+    <div className='flex items-center justify-center min-h-screen bg-gray-100'>
+      <div className='bg-white p-8 rounded-2xl shadow-lg w-full max-w-md'>
+        <h1 className='text-2xl font-bold text-gray-800 mb-6 text-center'>Sign In</h1>
+        <form onSubmit={handleSubmit} method='POST'>
+          <label>
+            Email:
+            <input className='w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500' type="email" name="email" value={formData.email} onChange={handleChange}/>
+          </label>
+          <label>
+            Password:
+            <input className='w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500' type="password" name="password" value={formData.password} onChange={handleChange} />
+          </label>
+          <button className='w-full py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition' type="submit" onSubmit={handleSubmit}>Sign In</button>
+        </form>
+      </div>
     </div>
   )
 }
